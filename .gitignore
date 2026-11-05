@@ -1,0 +1,14 @@
+node_modules/
+.vercel/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+*.xlsx
+*.xls
+*.csv
+*.zip
+backups/
+private-data/
+secrets/
