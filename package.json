@@ -1,0 +1,15 @@
+{
+  "name": "segero-draw-2027",
+  "version": "3.0.0-codex-handoff",
+  "description": "2027 Segero public-safe development baseline; do not deploy to production",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check app.js && node --check api/state.js && node --test",
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@vercel/blob": "^2.3.0"
+  },
+  "devDependencies": {}
+}
